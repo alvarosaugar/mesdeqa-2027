@@ -1,0 +1,544 @@
+menu:
+  - text: Agenda
+    url: '#agenda'
+    highlight: false
+  - text: Ponentes
+    url: '#ponentes'
+    highlight: false
+  - text: Organizan
+    url: '#organizan'
+    highlight: true
+  - text: Contacto
+    url: '#contacto'
+    highlight: false
+blocks:
+  - type: hero
+    title: Mes de QA 4
+    intro: Cuarta edición
+    text: >-
+      La web se irá actualizando según auncie cada organizador sus sesiones.
+      También pueden aparecer más sesiones durante el mes, por lo que no pierdas
+      de vista la web.
+  - type: text
+    title: Mes de QA
+    theme: is-light width-box box-border
+    columns: false
+    text: >
+
+      Es una iniciativa donde se anima a que, durante un mismo mes, distintas
+      comunidades puedan organizar y promocionar charlas y encuentros sobre esa
+      temática, y dotar de un punto para la promoción cruzada de esas charlas y
+      comunidades.
+
+
+      ¿Más información? ¿Ediciones anteriores y más? Accede a la [web del Mes de
+      QA](https://mesdeqa.github.io/).
+  - type: calendar
+    title: Calendar
+    description: |2-
+       Hay sesiones en varios países, por lo que se recomienda revisar la hora en tu huso horario. **Las sesiones tienen la hora del lugar en el que se hacen.** 
+
+       Se pueden usar páginas para comprobar la hora como por ejemplo [ésta](https://www.zeitverschiebung.net/es/).
+    id: calendar
+    days:
+      - title: 1/06/2025
+        events:
+          - title: Performance Moderno
+            id: Performance_Moderno
+            label: remoto
+            description: >-
+              Tenemos a Leandro AKA Señor Performo trayendo del equipo de
+              WebPerf BCN, una descripcion de por que Performance testing no es
+              lo mismo que Load testing y de como afrontar el performance
+              moderno.
+
+
+              **Aquí tenéis la sesión ([enlace a
+              YouTube](https://youtu.be/COU7aE3Juuk?si=bS7NkMH1CqApag7V)).**
+            speakers:
+              - leandro
+              - WebPerfBarcelona
+      - title: 10/06/2025
+        events:
+          - time: '19:00 (UTC +2)'
+            title: >-
+              Top Security Flaws Hiding in Your Code Right Now – and How to Fix
+              Them
+            label: presencial
+            subtitle: 'Esta sesión será en español '
+            description: >-
+              Security vulnerabilities aren’t just hypothetical—they’re real,
+              from the MongoDB attack to the Log4Shell disaster, and they’re
+              hiding in your code right now. In this session, we’ll explore the
+              most common and dangerous flaws: SQL Injection, Deserialization
+              Injection, and Logging Injection.
+
+
+              We’ll explain how these vulnerabilities work, why they’re so
+              risky, and how to fix them through examples.
+
+
+              You'll leave with practical tips for safeguarding your
+              applications, including best practices for SQL query
+              parameterization, secure deserialization techniques, the
+              importance of sanitizing logs, and how to use tooling to prevent
+              these flaws more easily.
+
+
+              Audience Takeaways:
+
+
+              Deep understanding of SQL Injection, Deserialization Injection,
+              and Logging Injection.
+
+              Practical code examples and fixes to secure your applications.
+
+              Insights into real-world case studies of major security breaches.
+
+              Tooling that will help us to commit safe code.
+
+
+              **[Meetup
+              MadridJUG](https://www.meetup.com/es-ES/madridjug/events/308115167/?eventOrigin=home_page_upcoming_events%24all)**
+
+
+              **[Meetup
+              MadridGUG](https://www.meetup.com/es-ES/madrid-gug/events/308115158/?eventOrigin=home_page_upcoming_events%24all)**
+            speakers:
+              - jonathanVilla
+      - title: 17/06/2025
+        events:
+          - time: '18:00 (UTC +2)'
+            title: How a Breakup Story Reduced Our Test Pipeline Time
+            label: presencial
+            description: >
+              Every great breakup story comes with drama, tough decisions… and
+              sometimes, an unexpected breakthrough.
+
+
+              Ours began when we realized our test suite was taking almost an
+              hour to run—and we were still pretending everything was fine. It
+              was clear: we had to make a decision.
+
+
+              In this talk, I'll walk you through how breaking up with our old
+              test runner improved our testing pipeline performance. We'll dive
+              into the migration, the technical wins, and the lessons we learned
+              along the way. If your test suite feels more like a bottleneck
+              than a safety net, this story might inspire your next move.
+
+
+              **[Meetup Ministry of Testing
+              Barcelona](https://www.meetup.com/mot-barcelona/events/308225855/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link)**
+            speakers:
+              - luisThur
+          - time: '19:00 (UTC +2)'
+            title: Why Should Devs Automate?
+            label: presencial
+            description: >-
+              This session explores how smart automation practices from a
+              developer's perspective can drastically reduce bugs, cut costs,
+              and accelerate delivery before issues reach QA or production
+              environments.
+
+
+
+              **[Meetup Ministry of Testing
+              Barcelona](https://www.meetup.com/mot-barcelona/events/308225855/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link)**
+            speakers:
+              - mauroGioberti
+      - title: 19/06/2025
+        events:
+          - time: '18:30  (UTC +2)'
+            title: 'Smart Test Adviser: Tu copiloto de IA para decidir qué testear'
+            label: presencial
+            description: >-
+              ¿Alguna vez te preguntaste si estás invirtiendo tiempo y recursos
+              en los tests correctos? En esta charla te presentamos Smart Test
+              Adviser, una herramienta desarrollada por el equipo de QA de
+              Telefónica Innovación Digital que utiliza algoritmos propios de
+              inteligencia artificial para ayudarte a priorizar qué pruebas
+              ejecutar en función de los cambios introducidos en el código.
+
+
+              Verás cómo esta solución analiza el contexto, el historial y el
+              impacto potencial de cada modificación para recomendar los tests
+              más relevantes, optimizando esfuerzos, reduciendo redundancias y
+              mejorando la calidad del software. Hablaremos del problema que
+              resuelve, su arquitectura general, casos de uso reales y los
+              aprendizajes del proceso de desarrollo.
+
+
+              Una charla pensada para quienes quieren llevar el testing al
+              siguiente nivel con ayuda de la IA.
+
+
+              **[Meetup Ministry of Testing -
+              Valencia](https://www.meetup.com/mot-valencia/events/307604746/?eventOrigin=group_upcoming_events)**
+            speakers:
+              - jpb
+      - title: 26/06/2025
+        events:
+          - title: QA & Friends - Tendencias de QA en 2025
+            label: remoto
+            description: >-
+              En esta sesión el equipo de la comunidad de QAMakers hablará sobre
+              las últimas tendencias de QA a lo largo de 2025 y como nos ha
+              cambiado la vida temas como la IA
+
+
+              **[Enlace para
+              registrarse](https://www.qamakers.com/p/qa-friends-capitulo-6-hablando-de-qa.html)**
+            speakers:
+              - QAMakersTeam
+      - title: Sesiones organizadas
+        events:
+          - time: '1'
+            title: Primera sesión
+            description: Descripción de la sesión.
+            speakers: []
+          - time: '2'
+            title: Segunda sesión
+            description: Descripción de la sesión.
+            speakers: []
+          - time: '3'
+            title: Tercera sesión
+            description: Descripción de la sesión.
+            speakers: []
+          - time: '4'
+            title: Cuarta sesión
+            description: Descripción de la sesión.
+            speakers: []
+          - time: '5'
+            title: Quinta sesión
+            description: Descripción de la sesión.
+            speakers: []
+          - time: '6'
+            title: Sexta sesión
+            description: Descripción de la sesión.
+            speakers: []
+          - time: '7'
+            title: 'Séptima sesión '
+            speakers: []
+          - time: '8'
+            title: Octava sesión
+            description: Descripción de la sesión.
+            speakers: []
+  - type: separator
+    width: is-default
+  - type: speakers
+    title: Ponentes
+    description: Todas las personas que darán alguna sesión.
+    speakers:
+      - name: Jordi Puig Bou
+        id: jpb
+        role: 'Smart Test Adviser: Tu copiloto de IA para decidir qué testear'
+        bio: >-
+          Ingeniero de Telecomunicaciones y QA por accidente, con más de 10 años
+          mejorando la calidad del software en entornos complejos. Actualmente
+          en Telefónica, validando plataformas críticas y afinando procesos de
+          entrega continua. Me apasiona la automatización, el diseño de pruebas
+          con enfoque humano y compartir aprendizajes sobre cómo hacer testing
+          que realmente aporte valor. Interesado en la arquitectura de test y en
+          evolucionar frameworks de automatización que nos hagan la vida más
+          fácil… y nos dejen tiempo para innovar en metodologías para hacer un
+          testing más eficiente.
+        image: /files/jordipb.jpeg
+        links:
+          - icon: linkedin-logo
+            url: 'https://es.linkedin.com/in/jordi-puig-bou-02806233'
+      - name: Jonathan Villa
+        id: jonathanVilla
+        role: ' Top Security Flaws Hiding in Your Code Right Now – and How to Fix Them'
+        bio: >
+          Java Champion, Organiser at BarcelonaJUG and cofounder of JBCNConf and
+          DevBcn conferences in Barcelona.
+
+
+          Currently working as a Developer Advocate in Java at Sonar
+          (SonarLint,SonarQube), focused on Clean Code & Security.
+
+
+          I have worked as a (paid) developer since the first release of The
+          Secret of Monkey Island, about 30 years ago using Go on Kubernetes for
+          a Service Mesh layer on top of Istio | Java on Kubernetes for K8s
+          Operator, Rest API, using Quarkus, GraalVM, Apache Camel | PHP | VB |
+          Python | Pascal | C
+
+
+          I am very interested in simulated reality, psychology, philosophy, and
+          Java.
+        image: /files/jon.png
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/jonathanvila'
+          - icon: browser
+            url: 'https://sessionize.com/jonathan-vila/'
+          - icon: x-logo
+            url: 'http://twitter.com/vilojona'
+      - name: Person 3
+        id: name-3
+        company: Company name
+        role: role
+        bio: Bio ponente
+        image: /files/people/avatar.webp
+        links: []
+      - name: 'Leandro Meléndez '
+        id: leandro
+        company: (AKA Señor Performo)
+        role: Performance Moderno
+        bio: >
+          Leandro Melendez is an avid performance test manager and consultant,
+          podcast host on performance, presenter at testing conferences and many
+          others. Has over 20 years of experience on IT business ranging from
+          Developer, DBA, Project Manager and others.
+
+
+          The last 10 years he has been working on the QA area, especifically on
+          the Performance and Load testing area using tools as WinRunner,
+          LoadRunner, JMeter, HPDiagnostics, NeoLoad, AppDyn, Dynatrace and many
+          others.
+
+          Has served multiple S&P500 customers all over the USA, Mexico, Canada,
+          Brazil and Australia.
+
+
+          He writes a performance testing blog called SeñorPerformo
+          (www.srperf.com) and cooperates with the PerfBytes team in producing
+          more online material for performance and agile testers.
+
+
+          He hosts the PerfBytes podcast spanish version.
+        image: /files/Leandro_Melendez.jpg
+        links:
+          - icon: linkedin-logo
+            url: 'https://www.linkedin.com/in/leandromelendez/'
+          - icon: youtube-logo
+            url: 'https://www.youtube.com/@SrPerfEsp'
+      - name: Luis Thur
+        id: luisThur
+        role: How a Breakup Story Reduced Our Test Pipeline Time
+        bio: >-
+          I'm a passionate and technical QA Automation Engineer with over 10
+          years of experience, I specialize in automation, coding, and
+          meticulous debugging. Known for my attention to detail and
+          collaborative approach.I am dedicated to automating quality checks to
+          ensure confident and efficient releases.
+        image: /files/luisThur.png
+        links: []
+      - name: Mauro Gioberti
+        id: mauroGioberti
+        role: Why Should Devs Automate?
+        bio: Software Engineer | Devs Mentor
+        image: /files/maurogioberti.jpg
+        links:
+          - icon: github-logo
+            url: 'https://github.com/maurogioberti'
+          - icon: linkedin-logo
+            url: 'https://linkedin.com/in/maurogioberti'
+          - icon: browser
+            url: 'https://maurogioberti.com/'
+          - icon: x-logo
+            url: 'https://x.com/maurogioberti'
+          - icon: youtube-logo
+            url: 'https://www.youtube.com/@maurogioberti'
+      - name: Person 7
+        id: name-7
+        bio: Bio ponente
+        image: /files/people/avatar.webp
+        links: []
+      - name: Person 9
+        id: name-9
+        bio: Bio ponente
+        image: /files/people/avatar.webp
+        links: []
+      - name: QAMakers Team
+        id: QAMakersTeam
+        role: Comunidad
+        bio: |-
+          El equipo está formado por:
+          - David Fernandez Fernandez
+          - Abel Meriño Ibarra
+          - Albert Oliva Roura
+          - Miguel Alonso Navarro
+          - Victor Gomez Adan
+        image: /files/qamakers.png
+        links:
+          - icon: browser
+            url: 'https://www.qamakers.com'
+          - icon: browser
+            url: 'https://www.qamakers.academy'
+      - name: Person 10
+        id: name-10
+        bio: Bio ponente
+        image: /files/people/avatar.webp
+        links: []
+  - type: separator
+    width: is-default
+  - type: speakers
+    title: Organizan
+    description: Listado de quiénes organizan las sesiones
+    speakers:
+      - name: Org 1
+        id: org-1
+        role: Role
+        bio: Descripción organización.
+        image: /files/avatar.webp
+        links:
+          - {}
+      - name: Org 2
+        id: org-2
+        role: Role
+        bio: Descripción organización.
+        image: /files/people/avatar.webp
+        links: []
+      - name: Org 3
+        id: org-3
+        bio: Descripción organización.
+        image: /files/people/avatar.webp
+        links: []
+      - name: MadridGUG
+        id: madridgug
+        role: Comunidad
+        bio: >-
+          Somos un grupo de personas interesadas en el lenguaje de programación
+          Groovy y en el ecosistema creado alrededor de este lenguaje: Grails,
+          Griffon ...
+        image: /files/madridgug-1.png
+        links:
+          - icon: browser
+            url: 'https://www.madridgug.com/p/informacion-sobre-el-grupo.html'
+      - name: MadridJUG
+        id: madridjug
+        role: Comunidad
+        bio: >-
+          Tanto si eres nuev@ en este mundillo que rodea a la Máquina Virtual
+          Java, como si estás curtido en las mil batallas del bytecode, has
+          encontrado el sitio perfecto para aprender, enseñar y conocer gente
+          interesante.
+        image: /files/madridjug.webp
+        links:
+          - icon: browser
+            url: 'https://madridjug.es/'
+      - name: Ministry of Testing - Barcelona
+        id: MoTB
+        role: Comunidad
+        bio: >-
+          Una meetup pensada para que la comunidad de testers de Barcelona
+          compartan experiencias, hagan networking de manera presencial y se
+          diviertan!
+        image: /files/MoT Logo_Square Purple-1.png
+        links:
+          - icon: calendar-check
+            url: 'https://www.meetup.com/es-ES/mot-barcelona/'
+      - name: Ministry of Testing - Valencia
+        id: MoTV
+        role: Comunidad
+        bio: >
+          Ministry of Testing Valencia es nuestro local chapter en Valencia.
+
+
+          Somos un grupo de entusiastas probadores de software, de los que
+          dicen: «¡Hay que probar antes de una release!» y «¡Redeu!», cuando
+          algo no funciona como se esperaba.
+
+
+          Nuestros encuentros tienen como objetivo reunir a personas para hablar
+          y aprender sobre una buena y auténtica práctica de pruebas.
+        image: /files/MoTV.webp
+        links:
+          - icon: browser
+            url: 'https://www.ministryoftesting.com'
+      - name: QAMakers
+        id: QAMakers
+        role: Comunidad
+        bio: >
+          QA con voz propia. Comunidad real, tips útiles y un Bootcamp que forma
+          testers con actitud.
+
+
+          QAMakers no nació para encajar. Nació para romper el molde del QA
+          tradicional.
+
+          Creemos en la Cultura Maker: crear sin permiso, aprender sin miedo,
+          compartir sin filtros y participar sin jerarquías.
+
+          Aquí no venimos a seguir procesos, venimos a reinventarlos.
+
+
+          Formamos testers que piensan, desafían y hacen que las cosas funcionen
+          de verdad.
+
+          Si buscas teoría, hay mil sitios.
+
+          Si buscas acción, aquí tienes el Bootcamp:
+
+          www.qamakers.academy
+
+
+          Esto no es solo QA. Es una forma de estar en el mundo. Bienvenid@.
+        image: /files/qamakers.png
+        links:
+          - icon: browser
+            url: 'https://www.qamakers.com'
+          - icon: browser
+            url: 'https://www.qamakers.academy'
+      - name: WebPerf Barcelona
+        id: WebPerfBarcelona
+        role: Comunidad
+        bio: >+
+          Help build a faster Internet! 
+
+
+          Meet with fellow developers, sysadmins, and anyone interested in Web
+          Performance Optimization, to share ideas, make connections, and of
+          course, have a drink and tapas.
+
+
+          On topics ranging from server performance, code optimization,
+          profiling, monitoring, Front-End/UX design, tips&tricks, and improving
+          conversion rates.
+
+        image: /files/webPerfBarcelona.avif
+        links:
+          - icon: calendar-check
+            url: 'https://www.meetup.com/barcelona-web-performance/'
+  - type: separator
+    width: is-default
+  - type: faq
+    title: FAQ
+    theme: is-light width-box box-fill
+    questions:
+      - question: Objetivo que tiene Mes de QA
+        answer: >-
+          Dar visibilidad a QA y establecer relaciones entre ponentes y
+          comunidades que tratan el tema.
+      - question: De quién son las sesiones
+        answer: >-
+          Las sesiones son de las comunidades o la persona que la dé, por lo que
+          son ellas las que deciden y gestionan (podemos ayudar si se necesita).
+      - question: Requisitos para participar
+        answer: >-
+          Sólo se piden dos requitos:
+
+          1. La temática de la sesión debe ser QA;
+
+          2. Se anuncia la iniciativa y comparte la web al comienzo de la sesión
+          para dar visiblidad al resto de participantes
+  - type: contact
+    title: Contacto
+    id: contacto
+    theme: is-light width-box box-fill
+    items:
+      - title: 'Mail '
+        links:
+          - url: 'mailto:mesdeqa@gmail.com'
+            icon: envelope
+            text: mesdeqa@gmail.com
+          - {}
+metas:
+  image: /files/1708797478688.jpeg
+  title: Mes de QA - Cuarta edición
+  description: Cuarta edición del Mes de QA
+url: /
+title: Mes de QA

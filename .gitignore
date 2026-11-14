@@ -1,0 +1,8 @@
+# Salida y caché de Lume: el HTML lo genera el CI, no se commitea
+_site/
+_cache/
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
