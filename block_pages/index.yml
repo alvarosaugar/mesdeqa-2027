@@ -34,6 +34,7 @@ blocks:
       ¿Más información? ¿Ediciones anteriores y más? Accede a la [web del Mes de
       QA](https://mesdeqa.github.io/).
   - type: calendar
+    theme: is-light width-box box-fill
     title: Calendar
     description: |2-
        Hay sesiones en varios países, por lo que se recomienda revisar la hora en tu huso horario. **Las sesiones tienen la hora del lugar en el que se hacen.** 
@@ -227,6 +228,7 @@ blocks:
   - type: separator
     width: is-default
   - type: speakers
+    theme: is-light width-box box-fill
     title: Ponentes
     description: Todas las personas que darán alguna sesión.
     speakers:
@@ -376,6 +378,7 @@ blocks:
   - type: separator
     width: is-default
   - type: speakers
+    theme: is-light width-box box-fill
     title: Organizan
     description: Listado de quiénes organizan las sesiones
     speakers:
