@@ -6,6 +6,6 @@ const site = lume();
 site.use(top());
 
 // Ficheros del repo que no son parte de la web
-site.ignore("README.md", "tests");
+site.ignore("README.md", "tests", "tools");
 
 export default site;

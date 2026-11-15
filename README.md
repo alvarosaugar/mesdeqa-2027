@@ -24,6 +24,8 @@ Fuente de la web del [Mes de QA](https://mesdeqa.github.io) 2027.
 | `files/` | Imágenes |
 | `humans.vto` | Genera `/humans.txt` |
 | `tests/fixtures/` | Datos de ediciones anteriores para los tests |
+| `.github/labels.yml` | Labels del flujo de PR (alta, revisión, validado…) |
+| `tools/` | Scripts de mantenimiento (no forman parte de la web) |
 
 ## Desarrollo local
 
@@ -33,4 +35,5 @@ Requiere [Deno](https://deno.com) 2.
 deno task serve   # servidor local con recarga en http://localhost:3000
 deno task build   # genera _site/
 deno task cms     # Lume CMS en local
+deno task labels alvarosaugar/mesdeqa-2027   # crea/actualiza las labels de .github/labels.yml (requiere gh)
 ```
