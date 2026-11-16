@@ -1,0 +1,26 @@
+# Labels del flujo de PR (contrato C7 del plan).
+# Fuente de verdad: para crearlas o actualizarlas en un repo → deno task labels <owner/repo>
+# Colores entre comillas: sin ellas YAML lee 5319e7 como número (5319×10⁷).
+# Las etiquetas de las SESIONES (modalidad, tema…) son otra cosa: van en etiquetas.yml (C1).
+
+# Estado del PR
+- name: pendiente-revision
+  color: "fbca04"
+  description: PR nuevo de un canal de alta; espera la revisión de Álvaro
+- name: pendiente-info
+  color: "d93f0b"
+  description: Falta o hay que corregir información; se ha avisado a quien dio el alta
+- name: validado
+  color: "0e8a16"
+  description: Visto bueno de Álvaro; el workflow hace merge cuando los checks estén en verde
+- name: error
+  color: "b60205"
+  description: Falló la validación, el merge o el build; el motivo está en un comentario
+
+# Tipo de PR
+- name: alta
+  color: "1d76db"
+  description: Añade una sesión, persona o comunidad
+- name: modificacion
+  color: "5319e7"
+  description: Cambia datos existentes (visible, grabación, material, correcciones)
